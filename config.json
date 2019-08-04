@@ -1,0 +1,32 @@
+{
+    "train_root": "mnist",
+    "val_root": "mnist",
+    "local_batch_size": 128,
+    "global_batch_denom": 128,
+    "num_workers": 4,
+    "num_epochs": 100,
+    "generator_optimizer": {
+        "lr": 2e-4,
+        "betas": [
+            0.0,
+            0.99
+        ],
+        "eps": 1e-8
+    },
+    "discriminator_optimizer": {
+        "lr": 2e-4,
+        "betas": [
+            0.0,
+            0.99
+        ],
+        "eps": 1e-8
+    },
+    "inverter_optimizer": {
+        "lr": 2e-4,
+        "betas": [
+            0.0,
+            0.99
+        ],
+        "eps": 1e-8
+    }
+}
